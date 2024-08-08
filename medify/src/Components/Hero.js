@@ -7,11 +7,11 @@ import Button from "./Button";
 const Hero=()=>{
     return <section className={styles.container}>
         <div className={styles.hero_left}>
-        <img src={tagHero} className={styles.tag_hero}/>
+        <img src={tagHero} className={styles.tag_hero} alt="hero_tag_image"/>
         <Button children={"Find Centres"}/>
         </div>
         
-        <img src={heroImage} className={styles.hero_image}/>
+        <img src={heroImage} className={styles.hero_image} alt="hero_image"/>
     </section>
 }
 
