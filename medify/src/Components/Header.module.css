@@ -1,0 +1,38 @@
+.header_text{
+    background-color: rgba(42, 167, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    height:2rem;
+    align-content: center;
+    
+}
+
+.logo{
+    height: 3rem;
+    width: auto;
+}
+
+nav{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80vw;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    min-width: 70%;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+
+
+
