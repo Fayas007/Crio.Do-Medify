@@ -9,8 +9,8 @@ const SearchSection= ()=>{
     return <section className={styles.container}>
 
         <div className={styles.inner_container}>
-        <input className={styles.input} placeholder="State"/>
-        <input className={styles.input} placeholder="City"/>
+        <input className={styles.input} placeholder="    State"/>
+        <input className={styles.input} placeholder="    City"/>
         <Button>Search</Button>
         </div>
 

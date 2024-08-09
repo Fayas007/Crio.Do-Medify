@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import SearchSection from "../Components/SearchSection";
 import OffersSection from "../Components/OffersSection";
+import Specialisation from "../Components/Specialisation";
 
 
 const Page = () =>{
@@ -11,6 +12,7 @@ const Page = () =>{
     <Hero/>
     <SearchSection/>
     <OffersSection/>
+    <Specialisation/>
 </>
 }
 
