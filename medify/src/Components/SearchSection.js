@@ -14,7 +14,7 @@ const SearchSection= ()=>{
         <Button>Search</Button>
         </div>
 
-        <img src={SearchSectionPic} alt="pic"/>
+        <img src={SearchSectionPic} alt="pic" className={styles.image}/>
     </section>
 }
 
