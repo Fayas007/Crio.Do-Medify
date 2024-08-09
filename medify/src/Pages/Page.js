@@ -4,6 +4,7 @@ import Hero from "../Components/Hero";
 import SearchSection from "../Components/SearchSection";
 import OffersSection from "../Components/OffersSection";
 import Specialisation from "../Components/Specialisation";
+import Specialist from "../Components/Specialist";
 
 
 const Page = () =>{
@@ -13,6 +14,7 @@ const Page = () =>{
     <SearchSection/>
     <OffersSection/>
     <Specialisation/>
+    <Specialist/>
 </>
 }
 
