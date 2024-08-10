@@ -5,6 +5,8 @@ import SearchSection from "../Components/SearchSection";
 import OffersSection from "../Components/OffersSection";
 import Specialisation from "../Components/Specialisation";
 import Specialist from "../Components/Specialist";
+import CareSection from "../Components/CareSection";
+import Blogs from "../Components/Blogs";
 
 
 const Page = () =>{
@@ -15,6 +17,8 @@ const Page = () =>{
     <OffersSection/>
     <Specialisation/>
     <Specialist/>
+    <CareSection/>
+    <Blogs/>
 </>
 }
 

@@ -20,7 +20,7 @@ const Carousel =({images}) => {
       // install Swiper modules
       className={styles.container}
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
+      spaceBetween={10}
       slidesPerView={3}
       // navigation
       pagination={{ clickable: true }}

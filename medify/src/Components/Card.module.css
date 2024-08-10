@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    justify-content: space-between;
+    border: 1px #e3d4d3 solid;
+    border-radius: 6px;
+}
+
+.date{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+color: rgba(119, 130, 157, 1);
+
+}
+
+.sentence{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+color:rgba(27, 60, 116, 1);
+}
+
+.inner_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.name{
+    color: rgba(27, 60, 116, 1);
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+
+}
