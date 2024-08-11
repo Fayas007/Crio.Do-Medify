@@ -1,0 +1,47 @@
+.outerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin-left: 10vw;
+}
+
+
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.firstp{
+    color:rgba(42, 167, 255, 1);
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+
+}
+
+.secondp{
+    color: rgba(27, 60, 116, 1);
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 67px;
+text-align: left;
+margin:30px 0 30px 0;
+
+}
+
+.thirdp{
+    color:rgba(119, 130, 157, 1);
+    font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 40.8px;
+text-align: left;
+
+
+}

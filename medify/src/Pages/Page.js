@@ -7,6 +7,7 @@ import Specialisation from "../Components/Specialisation";
 import Specialist from "../Components/Specialist";
 import CareSection from "../Components/CareSection";
 import Blogs from "../Components/Blogs";
+import Family from "../Components/Family";
 
 
 const Page = () =>{
@@ -19,6 +20,7 @@ const Page = () =>{
     <Specialist/>
     <CareSection/>
     <Blogs/>
+    <Family/>
 </>
 }
 
