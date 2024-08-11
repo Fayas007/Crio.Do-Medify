@@ -8,6 +8,7 @@ import Specialist from "../Components/Specialist";
 import CareSection from "../Components/CareSection";
 import Blogs from "../Components/Blogs";
 import Family from "../Components/Family";
+import FAQSection from "../Components/FAQSection";
 
 
 const Page = () =>{
@@ -21,6 +22,7 @@ const Page = () =>{
     <CareSection/>
     <Blogs/>
     <Family/>
+    <FAQSection/>
 </>
 }
 
