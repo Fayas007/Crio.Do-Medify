@@ -9,6 +9,7 @@ import CareSection from "../Components/CareSection";
 import Blogs from "../Components/Blogs";
 import Family from "../Components/Family";
 import FAQSection from "../Components/FAQSection";
+import DownloadSection from "../Components/DownloadSection";
 
 
 const Page = () =>{
@@ -23,6 +24,7 @@ const Page = () =>{
     <Blogs/>
     <Family/>
     <FAQSection/>
+    <DownloadSection/>
 </>
 }
 
