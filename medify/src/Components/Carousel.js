@@ -25,14 +25,14 @@ const Carousel =({images}) => {
       // navigation
       pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
     >
       {/* <SwiperSlide><img src={image} className={styles.image}/></SwiperSlide>
       <SwiperSlide><img src={image} className={styles.image}/></SwiperSlide>
       <SwiperSlide><img src={image} className={styles.image}/></SwiperSlide>
       <SwiperSlide><img src={image} className={styles.image}/></SwiperSlide> */}
-      {images.map(image => <SwiperSlide><img src={image}  alt="card_image"/></SwiperSlide>)}
+      {images.map((image,i) => <SwiperSlide key={i}><img src={image}  alt="card_image"/></SwiperSlide>)}
      
     </Swiper>
   );

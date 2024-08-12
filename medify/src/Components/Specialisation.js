@@ -18,7 +18,7 @@ const Specialisation = () =>{
     return <div className={styles.container}>
         <p className={styles.writing}>Find by specialisation</p>
         <div className={styles.grid_container}>
-            {images.map(image => <img src={image} alt="specialisation"/>)}
+            {images.map((image,i) => <img src={image} alt="specialisation" key={i}/>)}
         </div>
         <Button children={"View All"}/>
     </div>

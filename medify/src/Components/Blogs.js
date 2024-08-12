@@ -17,7 +17,7 @@ const Blogs= ()=>{
         <p  className={styles.heading1}>Blog & News</p>
         <p  className={styles.heading2}>Read Our Latest News</p>
         <div className={styles.container}>
-        {blogs.map(ele => <Card image={ele.image} date={ele.date} sentence={ele.sentence} pic={ele.pic} name={ele.name} />)}
+        {blogs.map((ele,i) => <Card image={ele.image} date={ele.date} sentence={ele.sentence} pic={ele.pic} name={ele.name} key={i}/>)}
         </div>
         </div>
     </section>
