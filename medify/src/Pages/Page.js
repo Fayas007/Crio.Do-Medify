@@ -10,6 +10,8 @@ import Blogs from "../Components/Blogs";
 import Family from "../Components/Family";
 import FAQSection from "../Components/FAQSection";
 import DownloadSection from "../Components/DownloadSection";
+import Footer from "../Components/Footer";
+
 
 
 const Page = () =>{
@@ -25,6 +27,7 @@ const Page = () =>{
     <Family/>
     <FAQSection/>
     <DownloadSection/>
+    <Footer/>
 </>
 }
 
